@@ -25,8 +25,19 @@ import "swiper/css/pagination";
 // init Swiper:
 const swiper = new Swiper(".swiper", {
   modules: [Navigation, Pagination],
-  slidesPerView: 3,
-  spaceBetween: 20,
+  slidesPerView: 1,
+  spaceBetween: 5,
+
+  breakpoints: {
+    480: {
+      slidesPerView: 2,
+      spaceBetween: 10,
+    },
+    700: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+  },
 
   // Pagination
   pagination: {
