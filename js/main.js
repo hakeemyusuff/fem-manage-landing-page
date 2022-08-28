@@ -16,7 +16,7 @@ navToggle.addEventListener("click", () => {
 }); */
 
 // core version + navigation, pagination modules:
-import Swiper, { Navigation, Pagination } from "swiper";
+import Swiper, { Navigation, Pagination } from "../node_modules/swiper";
 // import Swiper and modules styles
 import "swiper/css";
 import "swiper/css/navigation";
